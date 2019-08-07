@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="description" content="" /><meta name="keywords" content="" /><meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="pingback" href="./xmlrpc.php" />
 
     <script type="text/javascript">
         document.documentElement.className = 'js';
@@ -32,7 +31,7 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='wp-block-library-css'  href='/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css'  href='{{ asset("/wp-includes/css/dist/block-library/style.min.css") }}' type='text/css' media='all' />
     <link rel='stylesheet' id='custom-back-to-top-css'  href='./wp-content/plugins/divi-100-back-to-top/assets/css/style.css?ver=20160602' type='text/css' media='all' />
     <link rel='stylesheet' id='divi-style-css'  href='./wp-content/themes/Divi/style.css?ver=3.23' type='text/css' media='all' />
     <link rel='stylesheet' id='dashicons-css'  href='./wp-includes/css/dashicons.min.css?ver=5.2.2' type='text/css' media='all' />
@@ -226,7 +225,7 @@
                                         </div><div class="et_pb_button_module_wrapper et_pb_button_11_wrapper  et_pb_module">
                                             <a class="et_pb_button et_pb_button_11 et_pb_bg_layout_dark" href="#fatrar_ban">ফাতরার বন</a>
                                         </div><div class="et_pb_button_module_wrapper et_pb_button_12_wrapper  et_pb_module">
-                                            <a class="et_pb_button et_pb_button_12 et_pb_bg_layout_dark" href="#dry_fish">শুঁটকি পল্লী</a>
+                                            <a class="et_pb_button et_pb_button_11 et_pb_bg_layout_dark" href="#dry_fish">শুঁটকি পল্লী</a>
                                         </div>
                                     </div> <!-- .et_pb_column -->
 
